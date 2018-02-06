@@ -1,0 +1,17 @@
+/*my answer: */
+.udacity-text {
+    font-family: Helvetica, Arial, Verdana;
+    text-decoration: underline;
+    color: #8001ff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+}
+/*their answer: */
+.udacity-text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #8001ff;
+}
