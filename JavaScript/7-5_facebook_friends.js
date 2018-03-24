@@ -21,19 +21,16 @@ var facebookProfile = {
     friends: 350,
     messages: ["I love kittens in the morning.", "How long does it take to get to Jersey?", "Sweet Christmas!", "My mom is a rock star!"],
     postMessage(message) {
-
-
+        facebookProfile.messages.push(message);
     }, 
     deleteMessage(index) {
-
+        facebookProfile.messages.splice(index,1);
     },
     addFriend() {
-
-    }
+        facebookProfile.friends++;
+    },
     removeFriend() {
-        for (var friends = 350; friends < 351; friends--){
-            return friends;
+        facebookProfile.friends--;
         }
-    }
+    };
 
-}
