@@ -1,10 +1,12 @@
 body {
     text-align: center;
+    background-color: #FADDDD;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: 'Lobster', cursive;
     font-size: 70px;
+    color: rgb(43, 86, 226);
     margin: 0.2em;
 }
 
